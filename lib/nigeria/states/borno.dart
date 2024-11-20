@@ -5,6 +5,7 @@ const State borno = State(
   stateId: 7,
   name: "Borno",
   capital: "Maiduguri",
+  motto: "Home of Peace",
   numberOfLocalGovernments: 27,
 );
 

@@ -1,14 +1,12 @@
 class State {
   final String name;
   final String motto;
-  final String region;
   final String capital;
   final int stateId;
   final int numberOfLocalGovernments;
 
   const State({
     required this.motto,
-    required this.region,
     required this.stateId,
     required this.name,
     required this.capital,
@@ -18,8 +16,6 @@ class State {
 
 
 //Northern Nigeria
-// Bauchi State: "Pearl of Tourism"
-// Borno State: "Home of Peace"
 // Gombe State: "Jewel in the Savannah"
 // Jigawa State: "The New World"
 // Kaduna State: "Centre of Learning"
@@ -36,14 +32,6 @@ class State {
 // Yobe State: "The Pride of the Sahel"
 // Zamfara State: "Farming is Our Pride"
 // Southern Nigeria
-// Anambra State: "Light of the Nation"
-// Bayelsa State: "Glory of All Lands"
-// Cross River State: "The People’s Paradise"
-// Delta State: "The Big Heart"
-// Ebonyi State: "Salt of the Nation"
-// Edo State: "The Heartbeat of the Nation"
-// Ekiti State: "Land of Honour and Integrity"
-// Enugu State: "Coal City State"
 // Imo State: "Eastern Heartland"
 // Lagos State: "Centre of Excellence"
 // Ogun State: "Gateway State"

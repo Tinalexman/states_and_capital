@@ -5,6 +5,7 @@ const State benue = State(
   stateId: 6,
   name: "Benue",
   capital: "Makurdi",
+  motto: "Food Basket of the Nation",
   numberOfLocalGovernments: 23,
 );
 

@@ -5,6 +5,7 @@ const State ekiti = State(
   stateId: 12,
   name: "Ekiti",
   capital: "Ado-Ekiti",
+  motto: "Land of Honour and Integrity",
   numberOfLocalGovernments: 16,
 );
 

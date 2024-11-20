@@ -6,6 +6,7 @@ const State anambra = State(
   name: "Anambra",
   capital: "Awka",
   numberOfLocalGovernments: 21,
+  motto: "Light of the Nation",
 );
 
 const List<LGA> anambraLocalGovernments = [

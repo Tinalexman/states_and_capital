@@ -4,6 +4,7 @@ import 'package:states_and_capitals/state.dart';
 const State delta = State(
   stateId: 9,
   name: "Delta",
+  motto: "The Big Heart",
   capital: "Asaba",
   numberOfLocalGovernments: 25,
 );

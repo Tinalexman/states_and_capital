@@ -5,6 +5,7 @@ const State bayelsa = State(
   stateId: 5,
   name: "Bayelsa",
   capital: "Yenagoa",
+  motto: "Glory of All Lands",
   numberOfLocalGovernments: 8,
 );
 

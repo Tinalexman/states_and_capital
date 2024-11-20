@@ -6,6 +6,7 @@ const State bauchi = State(
   name: "Bauchi",
   capital: "Bauchi",
   numberOfLocalGovernments: 21,
+  motto: "Pearl of Tourism",
 );
 
 const List<LGA> bauchiLocalGovernments = [

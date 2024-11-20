@@ -5,6 +5,7 @@ const State edo = State(
   stateId: 11,
   name: "Edo",
   capital: "Benin City",
+  motto: "The Heartbeat of the Nation",
   numberOfLocalGovernments: 18,
 );
 

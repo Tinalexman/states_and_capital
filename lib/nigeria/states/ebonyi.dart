@@ -4,6 +4,7 @@ import 'package:states_and_capitals/state.dart';
 const State ebonyi = State(
   stateId: 10,
   name: "Ebonyi",
+  motto: "Salt of the Nation",
   capital: "Abakaliki",
   numberOfLocalGovernments: 13,
 );

@@ -4,6 +4,7 @@ import 'package:states_and_capitals/state.dart';
 const State crossRiver = State(
   stateId: 8,
   name: "Cross River",
+  motto: "The People’s Paradise",
   capital: "Calabar",
   numberOfLocalGovernments: 18,
 );

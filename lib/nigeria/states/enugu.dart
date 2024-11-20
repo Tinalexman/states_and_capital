@@ -5,6 +5,7 @@ const State enugu = State(
   stateId: 13,
   name: "Enugu",
   capital: "Enugu",
+  motto: "Coal City State",
   numberOfLocalGovernments: 17,
 );
 
