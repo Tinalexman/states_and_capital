@@ -1,12 +1,12 @@
 import 'package:states_and_capitals/countries/nigeria/states/abia.dart';
 import 'package:states_and_capitals/countries/nigeria/states/adamawa.dart';
-import 'package:states_and_capitals/countries/nigeria/states/akwa-ibom.dart';
+import 'package:states_and_capitals/countries/nigeria/states/akwa_ibom.dart';
 import 'package:states_and_capitals/countries/nigeria/states/anambra.dart';
 import 'package:states_and_capitals/countries/nigeria/states/bauchi.dart';
 import 'package:states_and_capitals/countries/nigeria/states/bayelsa.dart';
 import 'package:states_and_capitals/countries/nigeria/states/benue.dart';
 import 'package:states_and_capitals/countries/nigeria/states/borno.dart';
-import 'package:states_and_capitals/countries/nigeria/states/cross-river.dart';
+import 'package:states_and_capitals/countries/nigeria/states/cross_river.dart';
 import 'package:states_and_capitals/countries/nigeria/states/delta.dart';
 import 'package:states_and_capitals/countries/nigeria/states/ebonyi.dart';
 import 'package:states_and_capitals/countries/nigeria/states/edo.dart';
@@ -44,7 +44,7 @@ const Country nigeria = Country(
   name: "Nigeria",
   capital: "FCT",
   countryCode: "+234",
-  numberOfStates: 36,
+  numberOfStates: 37,
 );
 
 
