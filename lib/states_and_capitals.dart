@@ -1,13 +1,17 @@
 library states_and_capitals;
 
-import 'package:states_and_capitals/lgas.dart';
-import 'package:states_and_capitals/states.dart';
 import 'package:states_and_capitals/country.dart';
+import 'package:states_and_capitals/lga.dart';
+import 'package:states_and_capitals/state.dart';
 
 export 'package:states_and_capitals/country.dart';
 
 class StatesAndCapitals {
-  static List<String> getStates(Country country) => States.getStates(country);
+  static List<Country> getCountries() => [];
 
-  static List<String> getLocalGovernments(Country country, String state) => Lgas.getLocalGovernments(country, state);
+  static List<State> getStatesInCountry(int countryId) => [];
+
+  static List<LGA> getLocalGovernmentsInCountryAndState(
+          int countryId, int stateId) =>
+      [];
 }
