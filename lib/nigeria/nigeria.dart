@@ -1,4 +1,4 @@
-import 'package:states_and_capitals/country.dart';
+import 'package:states_and_capitals/data/country.dart';
 
 const Country nigeria = Country(
   countryId: 0,

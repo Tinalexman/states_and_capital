@@ -1,5 +1,5 @@
-import 'package:states_and_capitals/lga.dart';
-import 'package:states_and_capitals/state.dart';
+import 'package:states_and_capitals/data/lga.dart';
+import 'package:states_and_capitals/data/state.dart';
 
 const State borno = State(
   stateId: 7,
