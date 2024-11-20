@@ -11,3 +11,4 @@ class Country {
     required this.numberOfStates,
   });
 }
+

@@ -5,6 +5,8 @@ import 'package:states_and_capitals/lga.dart';
 import 'package:states_and_capitals/state.dart';
 
 export 'package:states_and_capitals/country.dart';
+export 'package:states_and_capitals/state.dart';
+export 'package:states_and_capitals/lga.dart';
 
 class StatesAndCapitals {
   static List<Country> getCountries() => [];
