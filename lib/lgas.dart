@@ -1,7 +1,11 @@
 import 'package:states_and_capitals/country.dart';
 
+import 'nigeria/nigeria.dart';
+
 class Lgas {
-  static Map<Country, Map<String, List<String>>> allLocalGovernments = {};
+  static Map<Country, Map<String, List<String>>> allLocalGovernments = {
+    Country.nigeria: getNigerianStatesAndLGAs(),
+  };
 
   static List<String> getLocalGovernments(Country country, String state) {
     Map<String, List<String>>? statesAndLGAs = allLocalGovernments[country];
