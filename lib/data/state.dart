@@ -21,4 +21,9 @@ class State {
     required this.capital,
     required this.numberOfLocalGovernments,
   });
+
+  @override
+  String toString() {
+    return "State { name: $name, stateId: $stateId, capital: $capital, motto: $motto, numberOfLocalGovernments: $numberOfLocalGovernments }";
+  }
 }

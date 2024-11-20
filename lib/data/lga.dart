@@ -4,4 +4,9 @@ class LGA {
   const LGA({
     required this.name,
   });
+
+  @override
+  String toString() {
+    return "LGA { name: $name }";
+  }
 }

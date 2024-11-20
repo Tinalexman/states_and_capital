@@ -11,29 +11,34 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This package returns information about states and local governments of a country. These information 
+include the country code, the number of local governments, their motto and so on.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This package can give information about a country, its country code, its capital, the number of states it has.
+For each state in a country, you can get their names, motto, capital and the number of local governments it has.
+For each local government in a state, you can only get their name.
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Just import the package at the top of your .dart file and you can use it.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+This is an example usage detailing how to get the list of countries, states or local governments
 
 ```dart
-const like = 'sample';
+import 'package:states_and_capitals/states_and_capitals.dart';
+
+
+List<Country> countries = StatesAndCapitals.getCountries();
+List<State> states = StatesAndCapitals.getStatesInCountry(countryId: 0);
+List<LGA> lgas = StatesAndCapitals.getLocalGovernmentsInCountryAndState(countryId: 0, stateId: 0);
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+This package only supports Nigeria at the moment. In the immediate future, more countries and their corresponding states and 
+capitals would be added.

@@ -17,7 +17,7 @@ class StatesAndCapitals {
 
   /// Returns all the states in a particular country with the country code provided. Throws an error if
   /// the country code is invalid.
-  static List<State> getStatesInCountry(int countryId) {
+  static List<State> getStatesInCountry({required int countryId}) {
     List<State>? states = allStates[countryId];
     if (states == null) {
       throw Exception("There is no country with this id: $countryId");
@@ -28,10 +28,10 @@ class StatesAndCapitals {
 
   /// Returns all the local governments of a particular state and country matching the ids provided. Throws errors
   /// if either the country code or the state code is invalid
-  static List<LGA> getLocalGovernmentsInCountryAndState(
-    int countryId,
-    int stateId,
-  ) {
+  static List<LGA> getLocalGovernmentsInCountryAndState({
+    required int countryId,
+    required int stateId,
+  }) {
     Map<int, List<LGA>>? mapOfLGAS = allLocalGovernments[countryId];
     if (mapOfLGAS == null) {
       throw Exception("There is no country with this id: $countryId");
