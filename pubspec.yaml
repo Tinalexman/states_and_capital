@@ -1,5 +1,5 @@
 name: states_and_capitals
-description: "A Flutter package for getting the states and capitals in Nigeria"
+description: "A simple package for getting the states/regions and local governments in a country"
 version: 0.0.1
 repository: https://github.com/Tinalexman/states_and_capital.git
 
