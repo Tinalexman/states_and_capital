@@ -45,6 +45,8 @@ const Country nigeria = Country(
   capital: "FCT",
   countryCode: "+234",
   numberOfStates: 37,
+  latitude: 9.0820,
+  longitude: 8.6753,
 );
 
 
