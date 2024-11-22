@@ -44,11 +44,12 @@ const Country nigeria = Country(
   name: "Nigeria",
   capital: "FCT",
   countryCode: "+234",
+  currencyName: "Naira",
+  currencySymbol: "₦",
   numberOfStates: 37,
   latitude: 9.0820,
   longitude: 8.6753,
 );
-
 
 const List<State> allNigerianStates = [
   abia,
@@ -113,7 +114,7 @@ const Map<int, List<LGA>> allNigerianLocalGovernments = {
   19: kanoLocalGovernments,
   20: katsinaLocalGovernments,
   21: kebbiLocalGovernments,
-  22:kogiLocalGovernments,
+  22: kogiLocalGovernments,
   23: kwaraLocalGovernments,
   24: lagosLocalGovernments,
   25: nasarawaLocalGovernments,
