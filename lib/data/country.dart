@@ -14,6 +14,12 @@ class Country {
   /// The id of the country
   final int countryId;
 
+  /// The name of the currency used in a country
+  final String currencyName;
+
+  /// The country's currency symbol
+  final String currencySymbol;
+
   /// The latitude of the country
   final double latitude;
 
@@ -28,10 +34,12 @@ class Country {
     required this.numberOfStates,
     required this.longitude,
     required this.latitude,
+    required this.currencyName,
+    required this.currencySymbol,
   });
 
   @override
   String toString() {
-    return "Country { name: $name, countryId: $countryId, countryCode: $countryCode, numberOfStates: $numberOfStates, latitude: $latitude, longitude: $longitude }";
+    return "Country { name: $name, countryId: $countryId, countryCode: $countryCode, numberOfStates: $numberOfStates, latitude: $latitude, longitude: $longitude , currencyName: $currencyName, currencySymbol: $currencySymbol }";
   }
 }
